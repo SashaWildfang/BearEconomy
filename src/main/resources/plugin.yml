@@ -1,0 +1,27 @@
+name: BearEconomy
+version: '${version}'
+main: com.sasha.beareconomy.BearEconomy
+api-version: '1.20' # Or whatever your target modern MC version is
+description: ${description}
+
+commands:
+  eco:
+    description: Admin command to manage player economies.
+    usage: /eco <give|take|set|reset> <player> [amount]
+    permission: bn.beareconomy.admin
+  pay:
+    description: Send money to another player.
+    usage: /pay <player> <amount>
+  balance:
+    description: Check your or another player's balance.
+    usage: /balance [player]
+    aliases: [bal]
+  balancetop:
+    description: View the wealthiest players on the server.
+    usage: /balancetop [page]
+    aliases: [baltop]
+
+permissions:
+  bn.beareconomy.admin:
+    description: Allows modification of player balances.
+    default: op
