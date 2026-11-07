@@ -1,0 +1,26 @@
+settings:
+  starting-balance: 0.0
+  currency-symbol: "$"
+  currency-format: "%symbol%%amount%" # e.g., $100.50
+
+messages:
+  prefix: "&8[&aBearEco&8] "
+  no-permission: "&cYou lack the required clearance."
+  not-player: "&cOnly players can use this command."
+  player-not-found: "&cPlayer not found."
+  invalid-amount: "&cPlease enter a valid amount."
+
+  balance-self: "&7Your balance is: &a%balance%"
+  balance-other: "&e%player%&7's balance is: &a%balance%"
+
+  pay-success-sender: "&7You sent &a%amount% &7to &e%player%&7."
+  pay-success-receiver: "&7You received &a%amount% &7from &e%player%&7."
+  pay-insufficient: "&cYou do not have enough funds to send &a%amount%&c."
+  pay-self: "&cYou cannot pay yourself!"
+
+  eco-give: "&7Given &a%amount% &7to &e%player%&7. New balance: &a%balance%"
+  eco-take: "&7Taken &a%amount% &7from &e%player%&7. New balance: &a%balance%"
+  eco-set: "&7Set &e%player%&7's balance to: &a%balance%"
+  eco-received: "&7Your account was credited &a%amount%&7."
+  eco-deducted: "&7Your account was deducted &a%amount%&7."
+  eco-reset: "&7Reset &e%player%&7's balance to &a%balance%&7."
